@@ -4,6 +4,6 @@ class V1::GreetingsController < ApplicationController
 
     render json: {
       greeting: @greeting.greet
-    }.to_json 
+    }.to_json
   end
 end
