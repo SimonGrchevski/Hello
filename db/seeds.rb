@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+  puts 'Start seeding'
+  %w[Hello Ola Zivjo Hola Zdravo].each { |g| Greeting.create(greet: g) }
+  puts 'End seeding'
