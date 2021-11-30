@@ -21,6 +21,8 @@ This project renders random greetings,and its using react to render the UI.
 
   $ bundle
 
+  $ yarn
+
   $ rails db:create
 
   $ rails db:migrate
