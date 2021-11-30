@@ -1,24 +1,55 @@
-# README
+#ChosenName
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project renders random greetings,and its using react to render the UI.
 
-Things you may want to cover:
+## Build With
 
-* Ruby version
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- SASS
+- CSS
+- Bootstrap
+- React
+- Redux
 
-* System dependencies
+## Installation
+```
+  $ git clone git@github.com:SimonGrchevski/Hello.git
 
-* Configuration
+  $ cd Hello
 
-* Database creation
+  $ bundle
 
-* Database initialization
+  $ rails db:create
 
-* How to run the test suite
+  $ rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+  $ rails db:seed
 
-* Deployment instructions
+  $ ./bin/webpack-dev-server
 
-* ...
+  $ rails s
+  
+```
+
+
+## Author
+
+👤 Simon Grchevski
+
+- GitHub: [Github](https://github.com/SimonGrchevski)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/simon-grchevski-682935209/)
+- Twitter: [Twitter](https://twitter.com/grchevski)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
